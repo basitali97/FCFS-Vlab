@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="simjava.js"></script>
+<link type="text/css" rel="stylesheet" href="C:/Users/basit/OneDrive/Documents/Web/simstyle.css">
+</head>
+<body>
+<div id="header">
+<h1>SIMULATOR(FIRST COME FIRST SERVE)</h1>
+</div>
+<div class="sideright">
+
+<h4 style="text-decoration:underline;">Gantt Chart</h4>
+<table style="width:100%">
+  <tr>
+    <th>P1</th>
+    <th>P2</th> 
+    <th>P3</th>
+	<th>P4</th>
+	<th>P5</th>
+  </tr>
+ </table>
+ <br>
+ 
+<form>
+<input type="text" name="b1" style="width:65px;" id="ac" onclick = "this.value = ''"/>
+<input type="text" name="b2" style="width:65px;" id="ad">
+<input type="text" name="b3" style="width:65px;" id="ae">
+<input type="text" name="b4" style="width:65px;" id="af">
+<input type="text" name="b5" style="width:65px;" id="ag">
+
+</form>
+ 
+ 
+ <p style="margin-left:8px;">Click below to get process completion time</p>
+<button onclick= "tboxe1();"  class="x1"> Display</button>
+
+
+ 
+</div>
+<div class="main">
+<h2 style="text-decoration:underline;">Mode:Non-Pre-emptive</h2>
+<h2 style="text-decoration:underline;">Criteria:Arrival Time</h2>
+
+
+<table style="width:100%">
+  <tr>
+    <th>Process no.</th>
+    <th>Arrival Time</th> 
+    <th>Burst Time</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><input type="number" name="d1" style="width:60px;" id="at1"></td>
+    <td><input type="number" name="d1" style="width:60px;" id="bt1"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><input type="number" name="d1" style="width:60px;" id="at2"></td>
+    <td><input type="number" name="d1" style="width:60px;" id="bt2"></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><input type="number" name="d1" style="width:60px;" id="at3"></td>
+    <td><input type="number" name="d1" style="width:60px;" id="bt3"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><input type="number" name="d1" style="width:60px;" id="at4"></td>
+    <td><input type="number" name="d1" style="width:60px;" id="bt4"></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><input type="number" name="d1" style="width:60px;" id="at5"></td>
+    <td><input type="number" name="d1" style="width:60px;" id="bt5"></td>
+  </tr>
+</table>
+<h4 style="margin-left:300px;">Enter the Arrival time and Burst time </h4>
+<br>
+<br>
+<table style="width:100%">
+  <tr>
+    <th>Process no.</th>
+    <th>Completion Time</th> 
+    <th>Turn Around Time</th>
+	<th>Waiting Time</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><input type="text" name="c1" style="width:60px;" id="ct1" onclick="this.value=''"/></td>
+    <td><input type="text" name="d1" style="width:60px;" id="tat1"></td>
+	<td><input type="text" name="e1" style="width:60px;" id="wt1"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><input type="text" name="c2" style="width:60px;" id="ct2"></td>
+    <td><input type="text" name="d2" style="width:60px;" id="tat2"></td>
+	<td><input type="text" name="e2" style="width:60px;" id="wt2"></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><input type="text" name="c3" style="width:60px;" id="ct3"></td>
+    <td><input type="text" name="d3" style="width:60px;" id="tat3"></td>
+	<td><input type="text" name="e3" style="width:60px;" id="wt3"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><input type="text" name="c4" style="width:60px;" id="ct4"></td>
+    <td><input type="text" name="d4" style="width:60px;" id="tat4"></td>
+	<td><input type="text" name="e4" style="width:60px;" id="wt4"></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><input type="text" name="c5" style="width:60px;" id="ct5"></td>
+    <td><input type="text" name="d5" style="width:60px;" id="tat5"></td>
+	<td><input type="text" name="e5" style="width:60px;" id="wt5"></td>
+  </tr>
+</table>
+
+<p style="margin-left:20px;">Solve the above operation</p>
+<button onclick= "complete()" style="margin-left:20px;" >Click here</button>
+
+<h3 >Average Waiting Time = <input type="text" name="tb" style="width:60px;" id="avg1"></h3>
+
+<button onclick="avg();" style="margin-left:20px;" >Calculate</button>
+
+
+
+
+
+</div>
+
+
+
+</body>
+</html>
