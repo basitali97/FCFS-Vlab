@@ -24,7 +24,7 @@ of the queue, and the scheduler selects process from the head of the queue.
 5.	Response time 
 
 
-
+<br>
 <img src="images/story.png"/>
 <br>
 
@@ -42,7 +42,7 @@ Waiting Time (W.T): Time Difference between turn-around time and burst time.
 Waiting Time = Turn Around Time – Burst Time
 <br>
 FLOWCHART:<br>
-<img src="images/flowchart.png"/>
+<img src="images/flowchart.png"/><br>
 MINDMAP:<br>
 <img src="images/mindmap.png"/>
 
