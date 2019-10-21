@@ -25,7 +25,7 @@ of the queue, and the scheduler selects process from the head of the queue.
 
 
 
-<img src="images/story.jpg"/>
+<img src="images/story.png"/>
 <br>
 
 
@@ -41,7 +41,9 @@ Turn Around Time = Completion Time – Arrival Time
 Waiting Time (W.T): Time Difference between turn-around time and burst time.
 Waiting Time = Turn Around Time – Burst Time
 <br>
+FLOWCHART:<br>
 <img src="images/flowchart.png"/>
+MINDMAP:<br>
 <img src="images/mindmap.png"/>
 
 
