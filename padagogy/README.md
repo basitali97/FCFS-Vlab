@@ -68,5 +68,5 @@ Read the theory and comprehend the concepts related to the algorithm of FCFS.
 
 Sr.No | What students will do? | What Simulator will do ? | Purpose of the task
 :--|:--|:--|:--:
-1.| Student will click on Simulation tab | Simulator will ask for Arrival time and burst time | This will give the completion time through gantt chart.
+1.| Student will click on Simulation tab | Simulator will ask for Arrival time and burst time | This will give the completion time through gantt chart,gives the turn around time ,waiting time as well as calculate the average waitimg time.
 2.| Student will click on Simulation tab | Simulator opens the quizes on  screen | This will test the understandindg of algorithm of student after using simulator.
