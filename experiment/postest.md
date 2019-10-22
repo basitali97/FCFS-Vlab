@@ -1,11 +1,11 @@
-![posttest](images/fcfsque.png)
+![posttest](images/fcfsque.png)<br>
 POST TEST:
 
 1. Find the completion time for the job C ?
 
  1. 8
- 2. 20
- 3. 13
+ 2. 13
+ 3. 20
 2. Find the turn around time for the job C ?
 
  1. 11
