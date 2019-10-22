@@ -2,7 +2,7 @@
 <br>
 POST TEST:<br>
 
-1. Find the completion time for the job C ?<br>
+1. Find the completion time for the job D ?<br>
 
  a. 8<br>
  b. 13<br>
