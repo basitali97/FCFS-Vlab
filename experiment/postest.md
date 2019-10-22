@@ -4,16 +4,16 @@ POST TEST:
 
 1. Find the completion time for the job C ?
 
- 1. 8
- 2. 13
- 3. 20
+ a. 8
+ b. 13
+ c. 20
 2. Find the turn around time for the job C ?
 
- 1. 11
- 2. 7
- 3. 14
+ a. 11
+ b. 7
+ c. 14
 3. Find the average waiting time?
 
- 1. 5.8
- 2. 6.2
- 3. 6.8
+ a. 5.8
+ b. 6.2
+ c. 6.8
