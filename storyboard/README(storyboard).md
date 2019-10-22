@@ -56,8 +56,8 @@ MINDMAP:<br>
 <img src="storyboard/fcfsque.png"/>
 ##### 1.	Find the completion time for the job C ?
 <br> <b> a) 8 </b> 
-<br> b) 20 
-<br> c) 13
+<br> b) 13 
+<br> c) 20
 <br> ANS:-B
 
 ##### 2.	Find the turn around time for the job C ?
