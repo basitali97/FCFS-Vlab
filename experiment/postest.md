@@ -1,19 +1,19 @@
 ![posttest](images/fcfsque.png)<br>
 <br>
-POST TEST:
+POST TEST:<br>
 
-1. Find the completion time for the job C ?
+1. Find the completion time for the job C ?<br>
 
- a. 8
- b. 13
- c. 20
-2. Find the turn around time for the job C ?
+ a. 8<br>
+ b. 13<br>
+ c. 20<br>
+2. Find the turn around time for the job C ?<br>
 
- a. 11
- b. 7
- c. 14
-3. Find the average waiting time?
+ a. 11<br>
+ b. 7<br>
+ c. 14<br>
+3. Find the average waiting time?<br>
 
- a. 5.8
- b. 6.2
- c. 6.8
+ a. 5.8<br>
+ b. 6.2<br>
+ c. 6.8<br>
