@@ -43,21 +43,21 @@ What is the formula of turnaround time?
 
 POST TEST :
 
-Find the completion time for the job C ?
+1. Find the completion time for the job C ?<br>
 
- 8
- 20
- 13
-Find the turn around time for the job C ?
+ 1. 8<br>
+ 2. 20<br>
+ 3. 13<br>
+2. Find the turn around time for the job C ?<br>
 
- 11
- 7
- 14
-Find the average waiting time?
+ 1. 11<br>
+ 2. 7<br>
+ 3. 14<br>
+3. Find the average waiting time?<br>
 
- 5.8
- 6.2
- 6.8
+ 1. 5.8<br>
+ 2. 6.2<br>
+ 3. 6.8<br>
  
  Reference :
 1. https://google.com
