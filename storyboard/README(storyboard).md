@@ -46,7 +46,7 @@ FLOWCHART:<br>
 MINDMAP:<br>
 <img src="images/mindmap.jpg"/><br>
 STORYBOARD:
-<img src="images/over.gif"/><br>
+<img src="storyboard/over.gif"/><br>
 
 
 ### 3. User objective goals
