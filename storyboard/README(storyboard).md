@@ -53,11 +53,11 @@ MINDMAP:<br>
 
 
 ### 4. Challenges and Questions
-<img src="storyboard/fcfsque.png"/>
-##### 1.	Find the completion time for the job C ?
+<img src="storyboard/images/fcfsque.png"/>
+##### 1.	Find the completion time for the job D ?
 <br> <b> a) 8 </b> 
-<br> b) 13 
-<br> c) 20
+<br> b) 20 
+<br> c) 13
 <br> ANS:-B
 
 ##### 2.	Find the turn around time for the job C ?
