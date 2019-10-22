@@ -1,3 +1,4 @@
+![posttest](images/fcfsque.png)
 POST TEST:
 
 1. Find the completion time for the job C ?
