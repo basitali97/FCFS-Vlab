@@ -44,7 +44,9 @@ Waiting Time = Turn Around Time – Burst Time
 FLOWCHART:<br>
 <img src="images/flowchart.jpg"/><br>
 MINDMAP:<br>
-<img src="images/mindmap.jpg"/>
+<img src="images/mindmap.jpg"/><br>
+STORYBOARD:
+<img src="images/over.gif"/><br>
 
 
 ### 3. User objective goals
