@@ -53,7 +53,7 @@ MINDMAP:<br>
 
 
 ### 4. Challenges and Questions
-<img src="storyboard/images/fcfsque.png"/>
+<img src="images/fcfsque.png"/>
 ##### 1.	Find the completion time for the job D ?
 <br> <b> a) 8 </b> 
 <br> b) 20 
