@@ -1,11 +1,11 @@
-THEORY :
-CPU Scheduling:
-Scheduling of processes/work is done to finish the work on time
-There are many types of scheduling algorithms:
-1. First Come First Serve(FCFS)
-2. Shortest Job First(SJF)
-3. Shortest Remaining Time First(SRTF)
-4. Round Robin Scheduling
+THEORY :<br>
+CPU Scheduling:<br>
+Scheduling of processes/work is done to finish the work on time<br>
+There are many types of scheduling algorithms:<br>
+1. First Come First Serve(FCFS)<br>
+2. Shortest Job First(SJF)<br>
+3. Shortest Remaining Time First(SRTF)<br>
+4. Round Robin Scheduling<br>
 5. Priority Based scheduling (Non-Pre-emptive)<br>
 Non-Preemptive Scheduling:<br>
 Under non-preemptive scheduling, once the CPU has been allocated to a process, the process keeps the CPU until it releases the CPU either by terminating or by switching to the waiting state. This scheduling method is used by the Microsoft Windows 3.1 and by the Apple Macintosh operating systems. It is the only method that can be used on certain hardware platforms, because It does not require the special hardware(for example: a timer) needed for preemptive scheduling.<br>
@@ -17,3 +17,4 @@ Simplest scheduling algorithm that schedules according to arrival times of proce
 FCFS is very simple - Just a FIFO queue, like customers waiting in line at the bank or the post office or at a copying machine. Unfortunately, however, FCFS can yield some very long average wait times, particularly if the first process to get there takes a long time. For example, consider the following three processes:<br>
 Turn around time=Completion Time – Arrival Time<br>
 Waiting Time = Turn Around Time – Burst Time<br>
+<img src="images/fcfs.png">
