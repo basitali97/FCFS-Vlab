@@ -77,9 +77,9 @@ MINDMAP:<br>
 
 Formulas:<br> 
 
-Turn Around Time = Completion Time – Arrival Time
-Waiting Time = Turn Around Time – Burst Time
-Average Waiting time=(sum of waiting time of all process)/number of process 
+Turn Around Time = Completion Time – Arrival Time<br>
+Waiting Time = Turn Around Time – Burst Time<br>
+Average Waiting time=(sum of waiting time of all process)/number of process <br>
 
 ### 7.Conclusion:
 ####  Study of CPU Scheduling has been done. Average waiting time has been calculated.
