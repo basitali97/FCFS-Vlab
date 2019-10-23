@@ -38,11 +38,25 @@ a.	TAT=WT-CT<br>
 b. TAT=CT-AT<br>
 c.  TAT=WT-AT<br>
 d.  TAT=WT-BT<br>
-2.	What is the formula of waiting time?<br>
-a.	WT=TAT-CT<br>
-b. WT=CT-AT<br>
-c.  WT=AT-BT<br>
-d.  WT=BT-CT<br>
+
+##Post test<br>
+<img src="images/fcfsque.jpg">
+
+1. Find the completion time for the job C ?
+
+ a. 8
+ b. 20
+ c. 13
+2. Find the turn around time for the job C ?
+
+ a. 11
+ b. 7
+ c. 14
+3. Find the average waiting time?
+
+ a. 5.8
+ b. 6.2
+ c. 6.8
 
 
 ## 2.3 Description of sections:<br>
