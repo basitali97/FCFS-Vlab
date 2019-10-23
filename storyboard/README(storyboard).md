@@ -66,33 +66,8 @@ Average Waiting time=(sum of waiting time of all process)/number of process <br>
 <img src="images/mindmap.jpg"/><br>
 
 
-### 3. User objective goals
-1. To study the CPU Scheduling.
-2. To determine the average waiting time.
-
-
-### 4. Challenges and Questions
-<img src="images/fcfsque.jpg"/>
-##### 1.	Find the completion time for the job D ?
-<br> <b> a) 8 </b> 
-<br> b) 20 
-<br> c) 13
-<br> ANS:-B
-
-##### 2.	Find the turn around time for the job C ?
-<br> <b> a)	11  </b>
-<br> b) 7
-<br> c) 14
-<br> ANS:-A
-
-##### 3.Find the turn around time for the job C ?
-<br> a) 5.6
-<br> b)	6.2
-<br> c) 6.8
-<br> ANS:-C
-
 ### 5.STORYBOARD:
 <img src="storyboard/over.gif"/><br>
 
 ### 6.Some particular images
-<img src="images/fcfs.jpg">
+<img src="images/fcfs.png">
