@@ -8,7 +8,7 @@ In the "First come first serve" scheduling algorithm, as the name suggests, the 
 can say that the process which requests the CPU first, gets the CPU allocated first.
 ### 2. Story:
 
-2.1	Set the Visual Stage Description:
+### 2.1	Set the Visual Stage Description:
 1.	First Come First Serve, is just like FIFO(First in First out) Queue data structure, where the data element which is added to the 
 queue first, is the one who leaves the queue first.
 2.	This is used in Batch Systems.
@@ -16,7 +16,7 @@ queue first, is the one who leaves the queue first.
 of the queue, and the scheduler selects process from the head of the queue.
 4.	A perfect real life example of FCFS scheduling is buying tickets at ticket counter.
 
-2.2	Set User Objectives & Goals:
+### 2.2	Set User Objectives & Goals:
 1.	Draw the Gantt -chart for given problem.
 2.	 According to Gantt chart indexing find out completion time for each process
 3.	Turn-around time 
@@ -29,24 +29,41 @@ of the queue, and the scheduler selects process from the head of the queue.
 <br>
 
 
-2.3 Equations/formulas:
-Arrival Time: Time at which the process arrives in the ready queue.
+### 2.3 Set the pathway activites:
 
-Completion Time: Time at which process completes its execution.
-Burst Time: Time required by a process for CPU execution.
+Student will follow the the following steps:
+1.Student will have to enter the arrival time and burst time.
+2.Click on the gantt chart side given button,it will gives you the completion time of each process in gantt chart..
+3.Click on the button given below the turn around time table.
+4.It will gives you the waiting time and turn around time.
+5.Click on the button given below the average waiting time.
+6.Simulator will gives the desired average waiting time result.
 
-Turn Around Time: Time Difference between completion time and arrival time.
-Turn Around Time = Completion Time – Arrival Time
+### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+1. Student will be asked questions based on various cognitive levels. List of questions provided in Round 1 document.
 
-Waiting Time (W.T): Time Difference between turn-around time and burst time.
-Waiting Time = Turn Around Time – Burst Time
-<br>
-FLOWCHART:<br>
+2. Student will be asked to solve questions based on experiment.
+
+### 2.5.Allow pitfalls:
+1. The student will have to enter the arrival time in the incresing order.
+2. Negative values arer not allowed to be filled in the given table.
+
+### 2.6.Conclusion:
+ Study of CPU Scheduling has been done. Average waiting time has been calculated.
+
+### 2.7. Formulas and equations used :
+
+Formulas:<br> 
+
+Turn Around Time = Completion Time – Arrival Time<br>
+Waiting Time = Turn Around Time – Burst Time<br>
+Average Waiting time=(sum of waiting time of all process)/number of process <br>
+
+
+### 3.FLOWCHART:<br>
 <img src="images/flowchart.jpg"/><br>
-MINDMAP:<br>
+### 4.MINDMAP:<br>
 <img src="images/mindmap.jpg"/><br>
-STORYBOARD:
-<img src="storyboard/over.gif"/><br>
 
 
 ### 3. User objective goals
@@ -74,14 +91,8 @@ STORYBOARD:
 <br> c) 6.8
 <br> ANS:-C
 
+### 5.STORYBOARD:
+<img src="storyboard/over.gif"/><br>
 
-### 6. Formulas and equations used :
-
-Formulas:<br> 
-
-Turn Around Time = Completion Time – Arrival Time<br>
-Waiting Time = Turn Around Time – Burst Time<br>
-Average Waiting time=(sum of waiting time of all process)/number of process <br>
-
-### 7.Conclusion:
-####  Study of CPU Scheduling has been done. Average waiting time has been calculated.
+### 6.Some particular images
+<img src="images/fcfs.jpg">
