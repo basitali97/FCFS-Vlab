@@ -40,23 +40,23 @@ c.  TAT=WT-AT<br>
 d.  TAT=WT-BT<br>
 
 ##Post test<br>
-<img src="images/fcfsque.jpg">
+<img src="images/fcfsque.jpg"><br>
 
-1. Find the completion time for the job C ?
+1. Find the completion time for the job C ?<br>
 
- a. 8
- b. 20
- c. 13
-2. Find the turn around time for the job C ?
+ a. 8<br>
+ b. 20<br>
+ c. 13<br>
+2. Find the turn around time for the job C ?<br>
 
- a. 11
- b. 7
- c. 14
-3. Find the average waiting time?
+ a. 11<br>
+ b. 7<br>
+ c. 14<br>
+3. Find the average waiting time?<br>
 
- a. 5.8
- b. 6.2
- c. 6.8
+ a. 5.8<br>
+ b. 6.2<br>
+ c. 6.8<br>
 
 
 ## 2.3 Description of sections:<br>
