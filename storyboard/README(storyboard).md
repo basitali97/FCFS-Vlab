@@ -26,7 +26,7 @@ If weight of nth item is greater than W, then the nth item cannot be included an
 
 
 <br>
-<img src="images/instrumental.png"/>
+<img src="images/instructional.png"/>
 <br>
 
 
