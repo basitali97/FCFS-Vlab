@@ -4,13 +4,13 @@
 
 <b>Discipline | <b>INFORMATION TECHNOLOGY
 :--|:--|
-<b> Lab. | <b>CPU Scheduling
-<b> Experiment|     <b> First Come First Serve 
+<b> Lab. | <b>Solve Knapsack problem by Dynamic Programming
+<b> Experiment|     <b> 0/1 Knapsack
 
 
 
 <h5> About the Experiment : </h5>
-To find the average waiting time through first come first serve algorithm.
+To find the priofit gained through 0/1 Kanpsack Greedy Algorithm.
 
 <b>Name of Developer | <b> Mr. Neeraj Tantubay
 :--|:--|
