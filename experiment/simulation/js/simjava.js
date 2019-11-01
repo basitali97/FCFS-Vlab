@@ -1,153 +1,169 @@
-/*function tboxes() {
-	document.getElementById("ac").value=" 0---------4"
-	document.getElementById("ad").value=" 4---------7"
-	document.getElementById("ae").value=" 7---------8"
-	document.getElementById("af").value=" 8---------10"
-	document.getElementById("ag").value="10--------15"
-}*/
+function tbox(){
 
-/*function complete(){
-	document.getElementById("ct1").value="       4"
-	document.getElementById("ct2").value="       7"
-	document.getElementById("ct3").value="       8"
-	document.getElementById("ct4").value="       10"
-	document.getElementById("ct5").value="       15"
-	
-	
-	document.getElementById("tat1").value="       4"
-	document.getElementById("tat2").value="       6"
-	document.getElementById("tat3").value="       6"
-	document.getElementById("tat4").value="       7"
-	document.getElementById("tat5").value="       11"
-	
-	
-	document.getElementById("wt1").value="       0"
-	document.getElementById("wt2").value="       3"
-	document.getElementById("wt3").value="       5"
-	document.getElementById("wt4").value="       5"
-	document.getElementById("wt5").value="       6"
-		
-}
-*/
-function avg(){
+	var wt1=parseInt(document.getElementById("wt1").value);
+	var pt1=parseInt(document.getElementById("pt1").value);
+	var result1=pt1/wt1;
+	document.getElementById("rt1").value=result1;
 
-	var v1=parseInt(document.getElementById("wt1").value);
-	var v2=parseInt(document.getElementById("wt2").value);
-	var v3=parseInt(document.getElementById("wt3").value);
-	var v4=parseInt(document.getElementById("wt4").value);
-	var v5=parseInt(document.getElementById("wt5").value);
-	var result20=(v1+v2+v3+v4+v5)/5;
-	document.getElementById("avg1").value=result20;
-	
+	var wt2=parseInt(document.getElementById("wt2").value);
+	var pt2=parseInt(document.getElementById("pt2").value);
+	var result2=pt2/wt2;
+	document.getElementById("rt2").value=result2;
+
+	var wt3=parseInt(document.getElementById("wt3").value);
+	var pt3=parseInt(document.getElementById("pt3").value);
+	var result3=pt3/wt3;
+	document.getElementById("rt3").value=result3;
+
+	var wt4=parseInt(document.getElementById("wt4").value);
+	var pt4=parseInt(document.getElementById("pt4").value);
+	var result4=pt4/wt4;
+	document.getElementById("rt4").value=result4;
+
+	var wt5=parseInt(document.getElementById("wt5").value);
+	var pt5=parseInt(document.getElementById("pt5").value);
+	var result5=pt5/wt5;
+	document.getElementById("rt5").value=result5;
 
 }
 
-function tboxe1(){
-	
-	var num1=parseInt(document.getElementById("at1").value);
-	var brt1=parseInt(document.getElementById("bt1").value);
-	var result1=brt1+num1;
-	document.getElementById("ac").value=result1;
-	
-	var num2=parseInt(document.getElementById("ac").value);
-	var brt2=parseInt(document.getElementById("bt2").value);
-	var result2=num2+brt2;
-	document.getElementById("ad").value=result2;
-	
-	var num3=parseInt(document.getElementById("ad").value);
-	var brt3=parseInt(document.getElementById("bt3").value);
-	var result3=num3+brt3;
-	document.getElementById("ae").value=result3;
-	
-	var num4=parseInt(document.getElementById("ae").value);
-	var brt4=parseInt(document.getElementById("bt4").value);
-	var result4=num4+brt4;
-	document.getElementById("af").value=result4;
-	
-	var num5=parseInt(document.getElementById("af").value);
-	var brt5=parseInt(document.getElementById("bt5").value);
-	var result5=num5+brt5;
-	document.getElementById("ag").value=result5;
-	
+function tboxes(){
+	var bag=parseInt(document.getElementById("bmw").value);
+
+	var weight1=parseFloat(document.getElementById("wt1").value);
+	var weight2=parseFloat(document.getElementById("wt2").value);
+	var weight3=parseFloat(document.getElementById("wt3").value);
+	var weight4=parseFloat(document.getElementById("wt4").value);
+	var weight5=parseFloat(document.getElementById("wt5").value);
+
+	var ratio1=parseFloat(document.getElementById("rt1").value);
+	var ratio2=parseFloat(document.getElementById("rt2").value);
+	var ratio3=parseFloat(document.getElementById("rt3").value);
+	var ratio4=parseFloat(document.getElementById("rt4").value);
+	var ratio5=parseFloat(document.getElementById("rt5").value);
+
+	var profit1=parseFloat(document.getElementById("pt1").value);
+	var profit2=parseFloat(document.getElementById("pt2").value);
+	var profit3=parseFloat(document.getElementById("pt3").value);
+	var profit4=parseFloat(document.getElementById("pt4").value);
+	var profit5=parseFloat(document.getElementById("pt5").value);
+
+	var ratio=[ratio1,ratio2,ratio3,ratio4,ratio5];
+	var weight=[weight1,weight2,weight3,weight4,weight5];
+	var profit=[profit1,profit2,profit3,profit4,profit5];
+	var i;
+	var max1;
+	var location1;
+	max1=ratio[0];
+	for(i=0;i<5;i++){
+		if(ratio[i]>=max1){
+			max1=ratio[i];
+			location1=i;
+		}
+	}
+	ratio[location1]=0;
+	var j;
+	var max2;
+	var location2;
+	max2=ratio[location1];
+	for(j=0;j<5;j++){
+		if(ratio[j]>=max2){
+			max2=ratio[j];
+			location2=j;
+		}
+	}
+	ratio[location2]=0;
+	var k;
+	var max3;
+	var location3;
+	max3=ratio[location2];
+	for(k=0;k<5;k++){
+		if(ratio[k]>=max3){
+			max3=ratio[k];
+			location3=k;
+		}
+	}
+	ratio[location3]=0;
+	var l;
+	var max4;
+	var location4;
+	max4=ratio[location3];
+	for(l=0;l<5;l++){
+		if(ratio[l]>=max4){
+			max4=ratio[l];
+			location4=l;
+		}
+	}
+	ratio[location4]=0;
+	var m;
+	var max5;
+	var location5;
+	max5=ratio[location4];
+	for(m=0;m<5;m++){
+		if(ratio[m]>=max5){
+			max5=ratio[m];
+			location5=m;
+		}
+	}
+	ratio[location5]=0;
+
+	var w1=weight[location1];
+	var w2=weight[location2];
+	var w3=weight[location3];
+	var w4=weight[location4];
+	var w5=weight[location5];
+	var w=[w1,w2,w3,w4,w5];
+	var p1=profit[location1];
+	var p2=profit[location2];
+	var p3=profit[location3];
+	var p4=profit[location4];
+	var p5=profit[location5];
+	var p=[p1,p2,p3,p4,p5];
+
+	var sum=0;
+	var n;
+	var pr=0;
+	var diff=(bag-sum);
+	var flag1=0;var flag2=0;var flag3=0;var flag4=0;var flag5=0;
+	for(n=0;n<5;n++){
+		if(w[n]<=diff && sum<=bag && n<=4&&flag1==0){
+			sum=sum+w[n];
+			diff=bag-sum;
+			flag1++;
+			pr=pr+p[n];
+			document.getElementById("bg1").value=w[n];
+		}
+		else if(w[n]<=diff && sum<=bag&& n<=4&&flag2==0){
+			sum=sum+w[n];
+			diff=bag-sum;
+			flag2++;
+			pr=pr+p[n];
+			document.getElementById("bg2").value=w[n];
+		}
+		else if(w[n]<=diff && sum<=bag&& n<=4&&flag3==0){
+			sum=sum+w[n];
+			diff=bag-sum;
+			flag3++;
+			pr=pr+p[n];
+			document.getElementById("bg3").value=w[n];
+		}
+		else if(w[n]<=diff && sum<=bag&& n<=4&&flag4==0){
+			sum=sum+w[n];
+			diff=bag-sum;
+			flag4++;
+			pr=pr+p[n];
+			document.getElementById("bg4").value=w[n];
+		}
+		else if(w[n]<=diff && sum<=bag && n<=4 && flag5==0){
+			sum=sum+w[n];
+			diff=bag-sum;
+			flag5++;
+			pr=pr+p[n];
+			document.getElementById("bg5").value=w[n];
+		}
+		else{
+
+		}
+	}
+	document.getElementById("ab").value=pr;
 }
-
-
-
-
-
-
-
-function complete(){
-
-	var txt1=document.getElementById("ac").value;
-	document.getElementById("ct1").value=txt1;
-	
-	var txt2=document.getElementById("ad").value;
-	document.getElementById("ct2").value=txt2;
-	
-	var txt3=document.getElementById("ae").value;
-	document.getElementById("ct3").value=txt3;
-	
-	var txt4=document.getElementById("af").value;
-	document.getElementById("ct4").value=txt4;
-	
-	var txt5=document.getElementById("ag").value;
-	document.getElementById("ct5").value=txt5;
-	
-	
-	var num6=parseInt(document.getElementById("ac").value);
-	var brt6=parseInt(document.getElementById("at1").value);
-	var result6=num6-brt6;
-	document.getElementById("tat1").value=result6;
-	
-	var num7=parseInt(document.getElementById("ad").value);
-	var brt7=parseInt(document.getElementById("at2").value);
-	var result7=num7-brt7;
-	document.getElementById("tat2").value=result7;
-	
-	var num8=parseInt(document.getElementById("ae").value);
-	var brt8=parseInt(document.getElementById("at3").value);
-	var result8=num8-brt8;
-	document.getElementById("tat3").value=result8;
-	
-	var num9=parseInt(document.getElementById("af").value);
-	var brt9=parseInt(document.getElementById("at4").value);
-	var result9=num9-brt9;
-	document.getElementById("tat4").value=result9;
-	
-	var num10=parseInt(document.getElementById("ag").value);
-	var brt10=parseInt(document.getElementById("at5").value);
-	var result10=num10-brt10;
-	document.getElementById("tat5").value=result10;
-	
-	var n1=parseInt(document.getElementById("tat1").value);
-	var bat1=parseInt(document.getElementById("bt1").value);
-	var result11=n1-bat1;
-	document.getElementById("wt1").value=result11;
-	
-	var n2=parseInt(document.getElementById("tat2").value);
-	var bat2=parseInt(document.getElementById("bt2").value);
-	var result12=n2-bat2;
-	document.getElementById("wt2").value=result12;
-	
-	var n3=parseInt(document.getElementById("tat3").value);
-	var bat3=parseInt(document.getElementById("bt3").value);
-	var result13=n3-bat3;
-	document.getElementById("wt3").value=result13;
-	
-	var n4=parseInt(document.getElementById("tat4").value);
-	var bat4=parseInt(document.getElementById("bt4").value);
-	var result14=n4-bat4;
-	document.getElementById("wt4").value=result14;
-	
-	var n5=parseInt(document.getElementById("tat5").value);
-	var bat5=parseInt(document.getElementById("bt5").value);
-	var result15=n5-bat5;
-	document.getElementById("wt5").value=result15;
-
-
-}
-
-
-
-	
