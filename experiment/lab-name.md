@@ -1,3 +1,3 @@
-LAB NAME:
+# LAB NAME:
 
-CPU Scheduling
+## Solving Knapsack Problem With Dynamic Programming
