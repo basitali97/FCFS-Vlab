@@ -25,14 +25,14 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 #### 2. Instructional Strategy:<br>
 
 #### 2.1 Instructional Strategy:<br>
-<img src="images/instuctional.jpg"><br>
+<img src="images/instuctional.png"><br>
 
 #### 2.2 Assessment Method:<br>
 
 #### Quiz will be taken for evaluation (Example given below)<br>
 
 ## Pre test<br>
-<img src="images/prequiz1.jpg"><br>
+<img src="images/prequiz1.png"><br>
 ### Bag maximum Weight 30. 
 
 1.	What will be the profit gain in above problem?<br>
@@ -53,8 +53,8 @@ b. 7,6,5<br>
 c. 1,8,7<br>
 d. All the Weights<br>
 
-##Post test<br>
-<img src="images/postquiz1.jpg"><br>
+## Post test<br>
+<img src="images/postquiz1.png"><br>
 ### Bag maximum Weight 30.
 
 1. What will be the profit gain in above problem?<br>
