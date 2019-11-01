@@ -87,6 +87,7 @@ Let us consider that the capacity of the knapsack is W = 25 and the items are as
 |------|---|---|---|---|
 |Profit|	24 | 18 |	18	| 10 |
 | Weight |	24	| 10	| 10	| 7 |
+
 Without considering the profit per unit weight (pi/wi), if we apply Greedy approach to solve this problem, first item A will be selected as it will contribute maximum profit among all the elements.
 
 After selecting item A, no more item will be selected. Hence, for this given set of items total profit is 24. Whereas, the optimal solution can be achieved by selecting items, B and C, where the total profit is 18 + 18 = 36.
