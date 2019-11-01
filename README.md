@@ -10,8 +10,7 @@
 
 
 <h5> About the Experiment : </h5>
-### To find the profit gained through 0/1 Kanpsack Greedy Algorithm. 
-<br>
+To find the profit gained through 0/1 Kanpsack Greedy Algorithm.
 <b>Name of Developer | <b> Mr. Neeraj Tantubay
 :--|:--|
 <b> Institute | <b> Rajkiya Engineering College,Banda
