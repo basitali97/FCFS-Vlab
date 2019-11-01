@@ -1,2 +1,2 @@
-Experiment name:
-  CPU SCHEDULING
+# Experiment name:
+  0/1 Knapsack
