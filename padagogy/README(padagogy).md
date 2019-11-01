@@ -25,7 +25,7 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 #### 2. Instructional Strategy:<br>
 
 #### 2.1 Instructional Strategy:<br>
-<img src="images/instuctional.png"><br>
+<img src="images/instructional.png"><br>
 
 #### 2.2 Assessment Method:<br>
 
