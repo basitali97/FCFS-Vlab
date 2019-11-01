@@ -1,118 +1,157 @@
-function avg(){
+function tbox(){<br>
+	var wt1=parseInt(document.getElementById("wt1").value);<br>
+	var pt1=parseInt(document.getElementById("pt1").value);<br>
+	var result1=pt1/wt1;<br>
+	document.getElementById("rt1").value=result1;<br>
+	var wt2=parseInt(document.getElementById("wt2").value);<br>
+	var pt2=parseInt(document.getElementById("pt2").value);<br>
+	var result2=pt2/wt2;<br>
+	document.getElementById("rt2").value=result2;<br>
+	var wt3=parseInt(document.getElementById("wt3").value);<br>
+	var pt3=parseInt(document.getElementById("pt3").value);<br>
+	var result3=pt3/wt3;<br>
+	document.getElementById("rt3").value=result3;<br>
+	var wt4=parseInt(document.getElementById("wt4").value);<br>
+	var pt4=parseInt(document.getElementById("pt4").value);<br>
+	var result4=pt4/wt4;<br>
+	document.getElementById("rt4").value=result4;<br>
+	var wt5=parseInt(document.getElementById("wt5").value);<br>
+	var pt5=parseInt(document.getElementById("pt5").value);<br>
+	var result5=pt5/wt5;<br>
+	document.getElementById("rt5").value=result5;<br>
 
-	var v1=parseInt(document.getElementById("wt1").value);
-	var v2=parseInt(document.getElementById("wt2").value);
-	var v3=parseInt(document.getElementById("wt3").value);
-	var v4=parseInt(document.getElementById("wt4").value);
-	var v5=parseInt(document.getElementById("wt5").value);
-	var result20=(v1+v2+v3+v4+v5)/5;
-	document.getElementById("avg1").value=result20;
-	
+}<br>
 
-}
-
-function tboxe1(){
-	
-	var num1=parseInt(document.getElementById("at1").value);
-	var brt1=parseInt(document.getElementById("bt1").value);
-	var result1=brt1+num1;
-	document.getElementById("ac").value=result1;
-	
-	var num2=parseInt(document.getElementById("ac").value);
-	var brt2=parseInt(document.getElementById("bt2").value);
-	var result2=num2+brt2;
-	document.getElementById("ad").value=result2;
-	
-	var num3=parseInt(document.getElementById("ad").value);
-	var brt3=parseInt(document.getElementById("bt3").value);
-	var result3=num3+brt3;
-	document.getElementById("ae").value=result3;
-	
-	var num4=parseInt(document.getElementById("ae").value);
-	var brt4=parseInt(document.getElementById("bt4").value);
-	var result4=num4+brt4;
-	document.getElementById("af").value=result4;
-	
-	var num5=parseInt(document.getElementById("af").value);
-	var brt5=parseInt(document.getElementById("bt5").value);
-	var result5=num5+brt5;
-	document.getElementById("ag").value=result5;
-	
-}
-
-
-
-
-
-
-
-function complete(){
-
-	var txt1=document.getElementById("ac").value;
-	document.getElementById("ct1").value=txt1;
-	
-	var txt2=document.getElementById("ad").value;
-	document.getElementById("ct2").value=txt2;
-	
-	var txt3=document.getElementById("ae").value;
-	document.getElementById("ct3").value=txt3;
-	
-	var txt4=document.getElementById("af").value;
-	document.getElementById("ct4").value=txt4;
-	
-	var txt5=document.getElementById("ag").value;
-	document.getElementById("ct5").value=txt5;
-	
-	
-	var num6=parseInt(document.getElementById("ac").value);
-	var brt6=parseInt(document.getElementById("at1").value);
-	var result6=num6-brt6;
-	document.getElementById("tat1").value=result6;
-	
-	var num7=parseInt(document.getElementById("ad").value);
-	var brt7=parseInt(document.getElementById("at2").value);
-	var result7=num7-brt7;
-	document.getElementById("tat2").value=result7;
-	
-	var num8=parseInt(document.getElementById("ae").value);
-	var brt8=parseInt(document.getElementById("at3").value);
-	var result8=num8-brt8;
-	document.getElementById("tat3").value=result8;
-	
-	var num9=parseInt(document.getElementById("af").value);
-	var brt9=parseInt(document.getElementById("at4").value);
-	var result9=num9-brt9;
-	document.getElementById("tat4").value=result9;
-	
-	var num10=parseInt(document.getElementById("ag").value);
-	var brt10=parseInt(document.getElementById("at5").value);
-	var result10=num10-brt10;
-	document.getElementById("tat5").value=result10;
-	
-	var n1=parseInt(document.getElementById("tat1").value);
-	var bat1=parseInt(document.getElementById("bt1").value);
-	var result11=n1-bat1;
-	document.getElementById("wt1").value=result11;
-	
-	var n2=parseInt(document.getElementById("tat2").value);
-	var bat2=parseInt(document.getElementById("bt2").value);
-	var result12=n2-bat2;
-	document.getElementById("wt2").value=result12;
-	
-	var n3=parseInt(document.getElementById("tat3").value);
-	var bat3=parseInt(document.getElementById("bt3").value);
-	var result13=n3-bat3;
-	document.getElementById("wt3").value=result13;
-	
-	var n4=parseInt(document.getElementById("tat4").value);
-	var bat4=parseInt(document.getElementById("bt4").value);
-	var result14=n4-bat4;
-	document.getElementById("wt4").value=result14;
-	
-	var n5=parseInt(document.getElementById("tat5").value);
-	var bat5=parseInt(document.getElementById("bt5").value);
-	var result15=n5-bat5;
-	document.getElementById("wt5").value=result15;
-
-
-}
+function tboxes(){<br>
+	var bag=parseInt(document.getElementById("bmw").value);<br>
+	var weight1=parseFloat(document.getElementById("wt1").value);<br>
+	var weight2=parseFloat(document.getElementById("wt2").value);<br>
+	var weight3=parseFloat(document.getElementById("wt3").value);<br>
+	var weight4=parseFloat(document.getElementById("wt4").value);<br>
+	var weight5=parseFloat(document.getElementById("wt5").value);<br>
+	var ratio1=parseFloat(document.getElementById("rt1").value);<br>
+	var ratio2=parseFloat(document.getElementById("rt2").value);<br>
+	var ratio3=parseFloat(document.getElementById("rt3").value);<br>
+	var ratio4=parseFloat(document.getElementById("rt4").value);<br>
+	var ratio5=parseFloat(document.getElementById("rt5").value);<br>
+	var profit1=parseFloat(document.getElementById("pt1").value);<br>
+	var profit2=parseFloat(document.getElementById("pt2").value);<br>
+	var profit3=parseFloat(document.getElementById("pt3").value);<br>
+	var profit4=parseFloat(document.getElementById("pt4").value);<br>
+	var profit5=parseFloat(document.getElementById("pt5").value);<br>
+	var ratio=[ratio1,ratio2,ratio3,ratio4,ratio5];<br>
+	var weight=[weight1,weight2,weight3,weight4,weight5];<br>
+	var profit=[profit1,profit2,profit3,profit4,profit5];<br>
+	var i;<br>
+	var max1;<br>
+	var location1;<br>
+	max1=ratio[0];<br>
+	for(i=0;i<5;i++){<br>
+		if(ratio[i]>=max1){<br>
+			max1=ratio[i];<br>
+			location1=i;<br>
+		}<br>
+	}<br>
+	ratio[location1]=0;<br>
+	var j;<br>
+	var max2;<br>
+	var location2;<br>
+	max2=ratio[location1];<br>
+	for(j=0;j<5;j++){<br>
+		if(ratio[j]>=max2){<br>
+			max2=ratio[j];<br>
+			location2=j;<br>
+		}<br>
+	}<br>
+	ratio[location2]=0;<br>
+	var k;<br>
+	var max3;<br>
+	var location3;<br>
+	max3=ratio[location2];<br>
+	for(k=0;k<5;k++){<br>
+		if(ratio[k]>=max3){<br>
+			max3=ratio[k];<br>
+			location3=k;<br>
+		}<br>
+	}<br>
+	ratio[location3]=0;<br>
+	var l;<br>
+	var max4;<br>
+	var location4;<br>
+	max4=ratio[location3];<br>
+	for(l=0;l<5;l++){<br>
+		if(ratio[l]>=max4){<br>
+			max4=ratio[l];<br>
+			location4=l;<br>
+		}<br>
+	}<br>
+	ratio[location4]=0;<br>
+	var m;<br>
+	var max5;<br>
+	var location5;<br>
+	max5=ratio[location4];<br>
+	for(m=0;m<5;m++){<br>
+		if(ratio[m]>=max5){<br>
+			max5=ratio[m];<br>
+			location5=m;<br>
+		}<br>
+	}<br>
+	ratio[location5]=0;<br>
+	var w1=weight[location1];<br>
+	var w2=weight[location2];<br>
+	var w3=weight[location3];<br>
+	var w4=weight[location4];<br>
+	var w5=weight[location5];<br>
+	var w=[w1,w2,w3,w4,w5];<br>
+	var p1=profit[location1];<br>
+	var p2=profit[location2];<br>
+	var p3=profit[location3];<br>
+	var p4=profit[location4];<br>
+	var p5=profit[location5];<br>
+	var p=[p1,p2,p3,p4,p5];<br>
+	var sum=0;<br>
+	var n;<br>
+	var pr=0;<br>
+	var diff=(bag-sum);<br>
+	var flag1=0;var flag2=0;var flag3=0;var flag4=0;var flag5=0;<br>
+	for(n=0;n<5;n++){<br>
+		if(w[n]<=diff && sum<=bag && n<=4&&flag1==0){<br>
+			sum=sum+w[n];<br>
+			diff=bag-sum;<br>
+			flag1++;<br>
+			pr=pr+p[n];<br>
+			document.getElementById("bg1").value=w[n];<br>
+		}<br>
+		else if(w[n]<=diff && sum<=bag&& n<=4&&flag2==0){<br>
+			sum=sum+w[n];<br>
+			diff=bag-sum;<br>
+			flag2++;<br>
+			pr=pr+p[n];<br>
+			document.getElementById("bg2").value=w[n];<br>
+		}<br>
+		else if(w[n]<=diff && sum<=bag&& n<=4&&flag3==0){<br>
+			sum=sum+w[n];<br>
+			diff=bag-sum;<br>
+			flag3++;<br>
+			pr=pr+p[n];<br>
+			document.getElementById("bg3").value=w[n];<br>
+		}<br>
+		else if(w[n]<=diff && sum<=bag&& n<=4&&flag4==0){<br>
+			sum=sum+w[n];<br>
+			diff=bag-sum;<br>
+			flag4++;<br>
+			pr=pr+p[n];<br>
+			document.getElementById("bg4").value=w[n];<br>
+		}<br>
+		else if(w[n]<=diff && sum<=bag && n<=4 && flag5==0){<br>
+			sum=sum+w[n];<br>
+			diff=bag-sum;<br>
+			flag5++;<br>
+			pr=pr+p[n];<br>
+			document.getElementById("bg5").value=w[n];<br>
+		}<br>
+		else{<br>
+		}<br>
+	}<br>
+	document.getElementById("ab").value=pr;<br>
+}<br>
