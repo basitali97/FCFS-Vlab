@@ -48,30 +48,53 @@ To solve 0-1 Knapsack, Dynamic Programming approach is required.
 6. Calculate the maximum profit gain.
 
 
-Pre-Test :
-What is the formula of turnaround time?
+## Pre test<br>
+<img src="images/prequiz1.png"><br>
+### Bag maximum Weight 30. 
 
-1. Turn around time=Waiting Time-Completion Time
-2.Turn around time=Completion Time-Arrival Time
-3. Turn around time=Waiting Time-Arrival Time
+1.	What will be the profit gain in above problem?<br>
+a. 194<br>
+b. 90<br>
+c. 200<br>
+d. 197<br>
 
-POST TEST :
+2.	Which weight will go first in bag? <br>
+a. 8<br>
+b. 5<br>
+c. 1<br>
+d. 6<br>
 
-1. Find the completion time for the job C ?<br>
+3.	Which of the weights will go into bag?<br>
+a. 1,8,5<br>
+b. 7,6,5<br>
+c. 1,8,7<br>
+d. All the Weights<br>
 
- 1. 8<br>
- 2. 20<br>
- 3. 13<br>
-2. Find the turn around time for the job C ?<br>
+## Post test<br>
+<img src="images/postquiz1.png"><br>
+### Bag maximum Weight 30.
 
- 1. 11<br>
- 2. 7<br>
- 3. 14<br>
-3. Find the average waiting time?<br>
+1. What will be the profit gain in above problem?<br>
 
- 1. 5.8<br>
- 2. 6.2<br>
- 3. 6.8<br>
+ a. 170<br>
+ b. 160<br>
+ c. 290<br>
+ d. none of these<br>
+ 
+2.	Which weight will go first in bag? <br>
+
+ a. 35<br>
+ b. 7<br>
+ c. 16<br>
+ d. 1<br>
+ 
+3.	Which of the weights will go into bag?<br>
+
+ a. 35<br>
+ b. 16,12<br>
+ c. 1,7,16<br>
+ d. all the weights<br>
+
  
  Reference :
 1. https://google.com
