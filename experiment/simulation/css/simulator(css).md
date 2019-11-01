@@ -1,80 +1,61 @@
 body{
-background-color:rgb(254,252,184);
-margin:0px;
-font-size:20px;
-}
-
+    background-color:aqua;
+}<br>
 #header{
-	background-color:white;
-	clear:right;
-	position:default;
-}
-#header h1{
-	margin:0px;
-	padding:10px;
-	color:green;
-	position:default;
-	text-align:center;
-}
-.main{
-	background-color:#e5e4d1;
+    text-align: center;
+    background-color: rgb(240, 86, 48);
+    font-size: 150%;
+    margin-top: 20px;
+    color:whitesmoke
+
+}<br>
+.rbox{
+    background-color: whitesmoke;
 	margin-left:10px;
-	margin-right:450px;
+	margin-right:10px;
+	margin-top:2px;
+	margin-bottom:10px;
+	border-radius:5px;
+	padding:20px;
+	font-size:105%;
+	width:300px;
+	float:right;
+}<br>
+.main{
+    background-color: rgb(89, 245, 159);
+	margin-left:10px;
+	margin-right:380px;
 	margin-top:10px;
 	margin-bottom:10px;
 	border-radius:5px;
 	padding:20px;
 	font-size:110%;
-
 }
-	
-	
-.sideright{
-	background-color:#e5e4d7;
-	margin-left:10px;
-	margin-right:10px;
-	margin-top:150px;
-	margin-bottom:10px;
-	border-radius:5px;
-	padding:20px;
-	font-size:105%;
-	width:380px;
-	float:right;
-}
-
+<br>
 table, th, td {
-  border: 1px solid black;
-}
-
-
-
-#topbtn li{
-display:inline;
-border-radius:3px;
-box-sizing:border-box;
-text-align:center;
-background-color:white;
-
-
-}
-#tbox{
-	border:0px solid black;
-}
-
-	
-
-
-.aa{
-	background-color:#e5e4d1;
-}
-
-.x1:hover{
-color:black;
-backgrond-color:red;
-}
-.x1:active{
-color:black;
-backgrond-color:grb(91,0,183);
-}
-
-	
+    border: 0.5px solid black;
+  }
+<br>
+  .myButton {
+	box-shadow: 3px 4px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:18px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}<br>
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}<br>
+.myButton:active {
+	position:relative;
+	top:1px;
+}<br>
