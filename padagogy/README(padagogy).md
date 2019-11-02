@@ -2,7 +2,7 @@
 
 | Discipline  | INFORMATION TECHNOLOGY |
 | ------------- | ------------- |
-| Lab.  | Solving Knapsack Problem With Dynamic Programming  |
+| Lab.  | Solving Knapsack Problem With static Programming  |
 | Experiment  | 0/1 Knapsack |
 
 # 1.1 FOCUS AREA:
