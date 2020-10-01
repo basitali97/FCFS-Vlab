@@ -32,7 +32,7 @@ Instead of selecting the items based on the overall benefit, in this example the
 |Weight|	10|	40|	20|
 |Ratio|	10|	7|	6|
 
-Using the Greedy approach, first item A is selected. Then, the next item B is chosen. Hence, the total profit is 100 + 280 = 380. However, the optimal solution of this instance can be achieved by selecting items, B and C, where the total profit is 280 + 120 = 400.
+Using the Greedy approach, first item A is selected. Then, the next item B is chosen. Hence, the total profit is 100 + 280 = 380. However, the optimal solution of this instance can be achieved by selecting items, B and C. where the total profit is 280 + 120 = 400.
 
 Hence, it can be concluded that Greedy approach may not give an optimal solution.
 
